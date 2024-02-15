@@ -1983,6 +1983,19 @@
           "identifier": "https://asset-resources.gdevelop.io/public-resources/Generic Backgrounds/Plant/78905fcbbd0006e959a114a39e91ef9a02350be0268b953b5bda0a9b9114ca35_Green Small tree 3.png",
           "name": "Green Small tree 3.png"
         }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Coin Gold.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Coin Gold.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Breakable Physics/Coin/e87a4eedaa1fed05bc35fa8b48a3ca2abf6c98783ddc2c78d325461abb86cfc2_Coin Gold.png",
+          "name": "Coin Gold.png"
+        }
       }
     ],
     "resourceFolders": []
@@ -7777,10 +7790,10 @@
           "effects": [],
           "behaviors": [
             {
-              "canBeGrabbed": true,
               "name": "Platform",
-              "platformType": "NormalPlatform",
               "type": "PlatformBehavior::PlatformBehavior",
+              "canBeGrabbed": true,
+              "platformType": "NormalPlatform",
               "yGrabOffset": 0
             }
           ],
@@ -7825,6 +7838,71 @@
                           {
                             "x": 0,
                             "y": 98
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "868f394e97587214bfd9ffc660d5d6459d584c44757e7d06f071dbb623ef67b5",
+          "name": "CoinGold",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [
+            {
+              "name": "Tween",
+              "type": "Tween::TweenBehavior"
+            }
+          ],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": true,
+                  "timeBetweenFrames": 0.4,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Coin Gold.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 15,
+                            "y": 18
+                          },
+                          {
+                            "x": 55,
+                            "y": 18
+                          },
+                          {
+                            "x": 55,
+                            "y": 58
+                          },
+                          {
+                            "x": 15,
+                            "y": 58
                           }
                         ]
                       ]
@@ -7883,6 +7961,9 @@
           },
           {
             "objectName": "GreenSmallTree3"
+          },
+          {
+            "objectName": "CoinGold"
           }
         ]
       },
@@ -8314,32 +8395,58 @@
               "parameters": [
                 "Percy",
                 "<=",
-                "NinjaBoy.X()+200"
+                "NinjaBoy.X()+50"
               ]
             }
           ],
           "actions": [
             {
               "type": {
-                "value": "AnimatableCapability::AnimatableBehavior::SetName"
+                "value": "Create"
               },
               "parameters": [
-                "Percy",
-                "Animation",
-                "=",
-                "\"Hurt\""
+                "",
+                "CoinGold",
+                "Percy.X()",
+                "Percy.Y()",
+                ""
               ]
             },
             {
               "type": {
-                "value": "MettreAutourPos"
+                "value": "Delete"
               },
               "parameters": [
                 "Percy",
                 "Percy.X()",
-                "Percy.Y()",
+                "",
+                "",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "ScalableCapability::ScalableBehavior::SetValue"
+              },
+              "parameters": [
+                "CoinGold",
+                "Scale",
+                "=",
+                ".3"
+              ]
+            },
+            {
+              "type": {
+                "value": "Tween::TweenBehavior::AddObjectOpacityTween2"
+              },
+              "parameters": [
+                "CoinGold",
+                "Tween",
+                "\"rgrg\"",
                 "0",
-                "90"
+                "\"linear\"",
+                "1.5",
+                "yes"
               ]
             }
           ]
@@ -8631,6 +8738,10 @@
         {
           "name": "Scale",
           "type": "ScalableCapability::ScalableBehavior"
+        },
+        {
+          "name": "Tween",
+          "type": "Tween::TweenBehavior"
         }
       ]
     },

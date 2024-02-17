@@ -2048,13 +2048,70 @@
           "identifier": "https://asset-resources.gdevelop.io/public-resources/Breakable Physics/Obstacle/Stone/2525f520e92212f9f103c2a60f7566cc9275881b1dd05253379e200aa0c26953_Rectangle stone_Perfect.png",
           "name": "Rectangle stone_Perfect.png"
         }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Spiked Ball.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Spiked Ball.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Adventure Pack/Traps/Spiked Ball/96bd465ee70a589c2dfb295fbeac097f9ec14f2c39e26d443ca98b7d3a91efc5_Spiked Ball.png",
+          "name": "Spiked Ball.png"
+        }
       }
     ],
     "resourceFolders": []
   },
-  "objects": [],
+  "objects": [
+    {
+      "assetStoreId": "775a20210080e1e18a55b14c9ebaaf24eb4b9ea93ceb7016d0f46a38e478dcfe",
+      "height": 128,
+      "name": "BackgroundColoredGrass",
+      "texture": "tiled_Background Colored Grass.png",
+      "type": "TiledSpriteObject::TiledSprite",
+      "width": 128,
+      "variables": [],
+      "effects": [],
+      "behaviors": []
+    },
+    {
+      "assetStoreId": "d8db1841a1ea153032d2fed6232833cf9d8219d058ceade0289a719c7f9ff71f",
+      "bottomMargin": 16,
+      "height": 48,
+      "leftMargin": 16,
+      "name": "GreenGrass9patch",
+      "rightMargin": 16,
+      "texture": "9patch_Green Grass 9Patch_all_16.png",
+      "tiled": true,
+      "topMargin": 16,
+      "type": "PanelSpriteObject::PanelSprite",
+      "width": 48,
+      "variables": [],
+      "effects": [],
+      "behaviors": [
+        {
+          "name": "Platform",
+          "type": "PlatformBehavior::PlatformBehavior",
+          "canBeGrabbed": true,
+          "platformType": "NormalPlatform",
+          "yGrabOffset": 0
+        }
+      ]
+    }
+  ],
   "objectsFolderStructure": {
-    "folderName": "__ROOT"
+    "folderName": "__ROOT",
+    "children": [
+      {
+        "objectName": "GreenGrass9patch"
+      },
+      {
+        "objectName": "BackgroundColoredGrass"
+      }
+    ]
   },
   "objectsGroups": [],
   "variables": [
@@ -2069,8 +2126,8 @@
     {
       "b": 209,
       "disableInputWhenNotFocused": true,
-      "mangledName": "Level_321",
-      "name": "Level 1",
+      "mangledName": "Level_322",
+      "name": "Level 2",
       "r": 209,
       "standardSortMethod": true,
       "stopSoundsOnStartup": true,
@@ -2086,7 +2143,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": true,
-        "zoomFactor": 0.3797121001947939,
+        "zoomFactor": 0.379712100194795,
         "windowMask": false
       },
       "objectsGroups": [],
@@ -2236,7 +2293,7 @@
           "angle": 0,
           "customSize": true,
           "depth": 1,
-          "height": 38,
+          "height": 32,
           "layer": "",
           "name": "CoinGold",
           "persistentUuid": "43f35095-1eb9-4cc4-a072-7c92b2098e79",
@@ -2252,7 +2309,7 @@
           "angle": 0,
           "customSize": true,
           "depth": 1,
-          "height": 38,
+          "height": 32,
           "layer": "",
           "name": "CoinGold",
           "persistentUuid": "5fb3ee25-f634-4565-936c-bfd9b0a41118",
@@ -2268,7 +2325,7 @@
           "angle": 0,
           "customSize": true,
           "depth": 1,
-          "height": 38,
+          "height": 32,
           "layer": "",
           "name": "CoinGold",
           "persistentUuid": "60b0e60c-f79a-473f-ba5e-44e9a0639c1d",
@@ -2347,7 +2404,7 @@
           "angle": 0,
           "customSize": true,
           "depth": 1,
-          "height": 38,
+          "height": 32,
           "layer": "",
           "name": "CoinGold",
           "persistentUuid": "1b098198-5354-4d3e-b28b-c6f1ab66dfb6",
@@ -2363,7 +2420,7 @@
           "angle": 0,
           "customSize": true,
           "depth": 1,
-          "height": 38,
+          "height": 32,
           "layer": "",
           "name": "CoinGold",
           "persistentUuid": "82c703df-833a-401b-b6b9-217939e42b70",
@@ -2379,7 +2436,7 @@
           "angle": 0,
           "customSize": true,
           "depth": 1,
-          "height": 38,
+          "height": 32,
           "layer": "",
           "name": "CoinGold",
           "persistentUuid": "0bd6cc46-a205-416d-979f-9996b8ee5299",
@@ -2395,7 +2452,7 @@
           "angle": 0,
           "customSize": true,
           "depth": 1,
-          "height": 38,
+          "height": 32,
           "layer": "",
           "name": "CoinGold",
           "persistentUuid": "f173ef1d-a0b0-46d6-83ff-f8a3e0d4c605",
@@ -2489,7 +2546,7 @@
           "angle": 0,
           "customSize": true,
           "depth": 1,
-          "height": 38,
+          "height": 32,
           "layer": "",
           "name": "CoinGold",
           "persistentUuid": "ad6125e6-4bf4-4f88-adbc-84c74286c7e0",
@@ -2505,7 +2562,7 @@
           "angle": 0,
           "customSize": true,
           "depth": 1,
-          "height": 38,
+          "height": 32,
           "layer": "",
           "name": "CoinGold",
           "persistentUuid": "9477f81f-ac16-4e3d-869a-b1dfdc5209cf",
@@ -2521,7 +2578,7 @@
           "angle": 0,
           "customSize": true,
           "depth": 1,
-          "height": 38,
+          "height": 32,
           "layer": "",
           "name": "CoinGold",
           "persistentUuid": "8708cc42-4a77-48fb-a4a4-34de64c9d91c",
@@ -2537,7 +2594,7 @@
           "angle": 0,
           "customSize": true,
           "depth": 1,
-          "height": 38,
+          "height": 32,
           "layer": "",
           "name": "CoinGold",
           "persistentUuid": "5b2c872f-4b05-4ee4-bbe6-a61890f78a9d",
@@ -2553,29 +2610,13 @@
           "angle": 0,
           "customSize": true,
           "depth": 1,
-          "height": 38,
+          "height": 32,
           "layer": "",
           "name": "CoinGold",
           "persistentUuid": "7b4f530d-b556-48e3-a681-25fe0c307172",
           "width": 32,
           "x": 800,
           "y": -134,
-          "zOrder": 14,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 1,
-          "height": 38,
-          "layer": "",
-          "name": "CoinGold",
-          "persistentUuid": "fde53c9e-55e4-4849-8785-7d4ef400d3e8",
-          "width": 32,
-          "x": 1120,
-          "y": -326,
           "zOrder": 14,
           "numberProperties": [],
           "stringProperties": [],
@@ -2656,6 +2697,22 @@
           "x": 869,
           "y": -529,
           "zOrder": 21,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 2,
+          "height": 60,
+          "layer": "",
+          "name": "SpikedBall",
+          "persistentUuid": "854ed63a-4f90-4a05-b213-468e02bcd11e",
+          "width": 60,
+          "x": 1124,
+          "y": -384,
+          "zOrder": 24,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -2997,41 +3054,6 @@
           ]
         },
         {
-          "assetStoreId": "775a20210080e1e18a55b14c9ebaaf24eb4b9ea93ceb7016d0f46a38e478dcfe",
-          "height": 128,
-          "name": "BackgroundColoredGrass",
-          "texture": "tiled_Background Colored Grass.png",
-          "type": "TiledSpriteObject::TiledSprite",
-          "width": 128,
-          "variables": [],
-          "effects": [],
-          "behaviors": []
-        },
-        {
-          "assetStoreId": "d8db1841a1ea153032d2fed6232833cf9d8219d058ceade0289a719c7f9ff71f",
-          "bottomMargin": 16,
-          "height": 48,
-          "leftMargin": 16,
-          "name": "GreenGrass9patch",
-          "rightMargin": 16,
-          "texture": "9patch_Green Grass 9Patch_all_16.png",
-          "tiled": true,
-          "topMargin": 16,
-          "type": "PanelSpriteObject::PanelSprite",
-          "width": 48,
-          "variables": [],
-          "effects": [],
-          "behaviors": [
-            {
-              "name": "Platform",
-              "type": "PlatformBehavior::PlatformBehavior",
-              "canBeGrabbed": true,
-              "platformType": "NormalPlatform",
-              "yGrabOffset": 0
-            }
-          ]
-        },
-        {
           "adaptCollisionMaskAutomatically": true,
           "assetStoreId": "8ca2e09bf678949923ff090c48894282841a844d89ac08dc2fd811ad6fe96861",
           "name": "NinjaBoy",
@@ -3049,9 +3071,9 @@
               "JumpButton": "A"
             },
             {
-              "gravity": 800,
               "name": "PlatformerObject",
               "type": "PlatformBehavior::PlatformerObjectBehavior",
+              "gravity": 800,
               "acceleration": 1500,
               "canGoDownFromJumpthru": true,
               "canGrabPlatforms": false,
@@ -8362,7 +8384,12 @@
           "updateIfNotVisible": false,
           "variables": [],
           "effects": [],
-          "behaviors": [],
+          "behaviors": [
+            {
+              "name": "Tween",
+              "type": "Tween::TweenBehavior"
+            }
+          ],
           "animations": [
             {
               "name": "",
@@ -8424,10 +8451,10 @@
           "effects": [],
           "behaviors": [
             {
-              "canBeGrabbed": true,
               "name": "Platform",
-              "platformType": "NormalPlatform",
               "type": "PlatformBehavior::PlatformBehavior",
+              "canBeGrabbed": true,
+              "platformType": "NormalPlatform",
               "yGrabOffset": 0
             }
           ],
@@ -8659,6 +8686,66 @@
             "characterSize": 50,
             "color": "0;0;0"
           }
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "292bb0eb1d90eb205c12caee38686fa65c0843944ad9de09ac3cfce41bbd8e58",
+          "name": "SpikedBall",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": true,
+                  "timeBetweenFrames": 0.025,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Spiked Ball.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 1,
+                            "y": 1
+                          },
+                          {
+                            "x": 28,
+                            "y": 1
+                          },
+                          {
+                            "x": 28,
+                            "y": 28
+                          },
+                          {
+                            "x": 1,
+                            "y": 28
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
         }
       ],
       "objectsFolderStructure": {
@@ -8671,13 +8758,7 @@
             "objectName": "Sword"
           },
           {
-            "objectName": "BackgroundColoredGrass"
-          },
-          {
             "objectName": "Text"
-          },
-          {
-            "objectName": "GreenGrass9patch"
           },
           {
             "objectName": "NinjaBoy"
@@ -8720,6 +8801,9 @@
           },
           {
             "objectName": "Value"
+          },
+          {
+            "objectName": "SpikedBall"
           }
         ]
       },
@@ -8854,7 +8938,7 @@
               },
               "parameters": [
                 "",
-                "\"Level 2\"",
+                "\"Level 1\"",
                 ""
               ]
             }
@@ -9015,48 +9099,6 @@
                 "",
                 "",
                 ""
-              ]
-            }
-          ]
-        },
-        {
-          "colorB": 228,
-          "colorG": 176,
-          "colorR": 74,
-          "creationTime": 0,
-          "name": "Sword",
-          "source": "",
-          "type": "BuiltinCommonInstructions::Group",
-          "events": [],
-          "parameters": []
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "CollisionNP"
-              },
-              "parameters": [
-                "Sword",
-                "NinjaBoy",
-                "",
-                "",
-                ""
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "MettreXY"
-              },
-              "parameters": [
-                "Sword",
-                "=",
-                "NinjaBoy.X(\"WeaponPoint\")",
-                "=",
-                "NinjaBoy.Y(\"WeaponPoint\")"
               ]
             }
           ]
@@ -9257,32 +9299,76 @@
               "parameters": [
                 "Percy",
                 "<=",
-                "NinjaBoy.X()+200"
+                "NinjaBoy.X()+80"
               ]
             }
           ],
           "actions": [
             {
               "type": {
-                "value": "AnimatableCapability::AnimatableBehavior::SetName"
+                "value": "Delete"
               },
               "parameters": [
                 "Percy",
-                "Animation",
-                "=",
-                "\"Hurt\""
+                ""
               ]
             },
             {
               "type": {
-                "value": "MettreAutourPos"
+                "value": "Create"
               },
               "parameters": [
-                "Percy",
+                "",
+                "CoinGold",
                 "Percy.X()",
-                "Percy.Y()",
+                "Percy.Y()-20",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Tween::TweenBehavior::AddObjectOpacityTween2"
+              },
+              "parameters": [
+                "CoinGold",
+                "Tween",
+                "\"coinKill\"",
                 "0",
-                "90"
+                "\"linear\"",
+                "1",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "ScalableCapability::ScalableBehavior::SetValue"
+              },
+              "parameters": [
+                "CoinGold",
+                "Scale",
+                "=",
+                "0.5"
+              ]
+            },
+            {
+              "type": {
+                "value": "ModVarGlobal"
+              },
+              "parameters": [
+                "Coins",
+                "+",
+                "1"
+              ]
+            },
+            {
+              "type": {
+                "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+              },
+              "parameters": [
+                "Value",
+                "Text",
+                "=",
+                "ToString(GlobalVariable(Coins))"
               ]
             }
           ]
@@ -9398,6 +9484,64 @@
                 "Percy",
                 ""
               ]
+            },
+            {
+              "type": {
+                "value": "Create"
+              },
+              "parameters": [
+                "",
+                "CoinGold",
+                "Percy.X()",
+                "Percy.Y()-20",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Tween::TweenBehavior::AddObjectOpacityTween2"
+              },
+              "parameters": [
+                "CoinGold",
+                "Tween",
+                "\"coinKill\"",
+                "0",
+                "\"linear\"",
+                "1",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "ScalableCapability::ScalableBehavior::SetValue"
+              },
+              "parameters": [
+                "CoinGold",
+                "Scale",
+                "=",
+                "0.5"
+              ]
+            },
+            {
+              "type": {
+                "value": "ModVarGlobal"
+              },
+              "parameters": [
+                "Coins",
+                "+",
+                "1"
+              ]
+            },
+            {
+              "type": {
+                "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+              },
+              "parameters": [
+                "Value",
+                "Text",
+                "=",
+                "ToString(GlobalVariable(Coins))"
+              ]
             }
           ]
         },
@@ -9433,9 +9577,47 @@
           ]
         },
         {
+          "type": "BuiltinCommonInstructions::Comment",
+          "color": {
+            "b": 109,
+            "g": 230,
+            "r": 255,
+            "textB": 0,
+            "textG": 0,
+            "textR": 0
+          },
+          "comment": ""
+        },
+        {
           "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [],
-          "actions": []
+          "conditions": [
+            {
+              "type": {
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "SpikedBall",
+                "NinjaBoy",
+                "",
+                "",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "MettreXY"
+              },
+              "parameters": [
+                "NinjaBoy",
+                "=",
+                "128",
+                "=",
+                "128"
+              ]
+            }
+          ]
         }
       ],
       "layers": [
@@ -9578,14 +9760,18 @@
         {
           "name": "Text",
           "type": "TextContainerCapability::TextContainerBehavior"
+        },
+        {
+          "name": "Tween",
+          "type": "Tween::TweenBehavior"
         }
       ]
     },
     {
       "b": 209,
       "disableInputWhenNotFocused": true,
-      "mangledName": "Level_322",
-      "name": "Level 2",
+      "mangledName": "Level_321",
+      "name": "Level 1",
       "r": 209,
       "standardSortMethod": true,
       "stopSoundsOnStartup": true,
@@ -9639,6 +9825,151 @@
               "width": 0
             }
           ],
+          "effects": [
+            {
+              "effectType": "Scene3D::HemisphereLight",
+              "name": "3D Light",
+              "doubleParameters": {
+                "elevation": 45,
+                "intensity": 1,
+                "rotation": 0
+              },
+              "stringParameters": {
+                "groundColor": "64;64;64",
+                "skyColor": "255;255;255",
+                "top": "Y-"
+              },
+              "booleanParameters": {}
+            }
+          ]
+        }
+      ],
+      "behaviorsSharedData": []
+    },
+    {
+      "b": 209,
+      "disableInputWhenNotFocused": true,
+      "mangledName": "Level_323",
+      "name": "Level 3",
+      "r": 209,
+      "standardSortMethod": true,
+      "stopSoundsOnStartup": true,
+      "title": "",
+      "v": 209,
+      "uiSettings": {
+        "grid": false,
+        "gridType": "rectangular",
+        "gridWidth": 32,
+        "gridHeight": 32,
+        "gridOffsetX": 0,
+        "gridOffsetY": 0,
+        "gridColor": 10401023,
+        "gridAlpha": 0.8,
+        "snap": false,
+        "zoomFactor": 0.4789341884535245,
+        "windowMask": false
+      },
+      "objectsGroups": [],
+      "variables": [],
+      "instances": [
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 715,
+          "layer": "Background",
+          "name": "BackgroundColoredGrass",
+          "persistentUuid": "c498de3a-5f99-4f8b-b72f-8a8e13bec8e8",
+          "width": 1276,
+          "x": 2,
+          "y": 1,
+          "zOrder": 1,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 48,
+          "layer": "Background",
+          "name": "GreenGrass9patch",
+          "persistentUuid": "056ada43-ffaf-42fc-a5e3-36f8e96cd2ac",
+          "width": 516,
+          "x": 44,
+          "y": 451,
+          "zOrder": 2,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        }
+      ],
+      "objects": [],
+      "objectsFolderStructure": {
+        "folderName": "__ROOT"
+      },
+      "events": [],
+      "layers": [
+        {
+          "ambientLightColorB": 200,
+          "ambientLightColorG": 200,
+          "ambientLightColorR": 200,
+          "camera3DFarPlaneDistance": 10000,
+          "camera3DFieldOfView": 45,
+          "camera3DNearPlaneDistance": 3,
+          "cameraType": "",
+          "followBaseLayerCamera": false,
+          "isLightingLayer": false,
+          "isLocked": false,
+          "name": "",
+          "renderingType": "",
+          "visibility": true,
+          "cameras": [
+            {
+              "defaultSize": true,
+              "defaultViewport": true,
+              "height": 0,
+              "viewportBottom": 1,
+              "viewportLeft": 0,
+              "viewportRight": 1,
+              "viewportTop": 0,
+              "width": 0
+            }
+          ],
+          "effects": [
+            {
+              "effectType": "Scene3D::HemisphereLight",
+              "name": "3D Light",
+              "doubleParameters": {
+                "elevation": 45,
+                "intensity": 1,
+                "rotation": 0
+              },
+              "stringParameters": {
+                "groundColor": "64;64;64",
+                "skyColor": "255;255;255",
+                "top": "Y-"
+              },
+              "booleanParameters": {}
+            }
+          ]
+        },
+        {
+          "ambientLightColorB": 200,
+          "ambientLightColorG": 200,
+          "ambientLightColorR": 200,
+          "camera3DFarPlaneDistance": 10000,
+          "camera3DFieldOfView": 45,
+          "camera3DNearPlaneDistance": 3,
+          "cameraType": "",
+          "followBaseLayerCamera": false,
+          "isLightingLayer": false,
+          "isLocked": false,
+          "name": "Background",
+          "renderingType": "",
+          "visibility": true,
+          "cameras": [],
           "effects": [
             {
               "effectType": "Scene3D::HemisphereLight",

@@ -2167,8 +2167,8 @@
     {
       "b": 209,
       "disableInputWhenNotFocused": true,
-      "mangledName": "Untitled_32scene",
-      "name": "Untitled scene",
+      "mangledName": "Tutorial",
+      "name": "Tutorial",
       "r": 209,
       "standardSortMethod": true,
       "stopSoundsOnStartup": true,
@@ -2184,7 +2184,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": true,
-        "zoomFactor": 0.4617836677045003,
+        "zoomFactor": 0.4773551654051594,
         "windowMask": false
       },
       "objectsGroups": [],
@@ -2231,8 +2231,8 @@
           "name": "NinjaBoy",
           "persistentUuid": "a80ad533-822b-46df-91a9-b7d87341d690",
           "width": 32,
-          "x": 128,
-          "y": 128,
+          "x": 64,
+          "y": 130,
           "zOrder": 5,
           "numberProperties": [],
           "stringProperties": [],
@@ -2625,6 +2625,22 @@
           "x": 1184,
           "y": 0,
           "zOrder": 30,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 2,
+          "height": 160,
+          "layer": "",
+          "name": "GreenSmallTree3",
+          "persistentUuid": "e3a6acfb-4006-4312-86c5-80c2b1ec086f",
+          "width": 98,
+          "x": 4416,
+          "y": 32,
+          "zOrder": 14,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -8399,10 +8415,10 @@
           "effects": [],
           "behaviors": [
             {
-              "canBeGrabbed": true,
               "name": "Platform",
-              "platformType": "NormalPlatform",
               "type": "PlatformBehavior::PlatformBehavior",
+              "canBeGrabbed": true,
+              "platformType": "NormalPlatform",
               "yGrabOffset": 0
             }
           ],
@@ -9051,48 +9067,6 @@
           ]
         },
         {
-          "colorB": 228,
-          "colorG": 176,
-          "colorR": 74,
-          "creationTime": 0,
-          "name": "Sword",
-          "source": "",
-          "type": "BuiltinCommonInstructions::Group",
-          "events": [],
-          "parameters": []
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "CollisionNP"
-              },
-              "parameters": [
-                "Sword",
-                "NinjaBoy",
-                "",
-                "",
-                ""
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "MettreXY"
-              },
-              "parameters": [
-                "Sword",
-                "=",
-                "NinjaBoy.X(\"WeaponPoint\")",
-                "=",
-                "NinjaBoy.Y(\"WeaponPoint\")"
-              ]
-            }
-          ]
-        },
-        {
           "type": "BuiltinCommonInstructions::Comment",
           "color": {
             "b": 109,
@@ -9318,103 +9292,24 @@
               "parameters": [
                 "Percy",
                 "<=",
-                "NinjaBoy.X()+50"
+                "NinjaBoy.X()+70"
               ]
+            },
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": []
             }
           ],
           "actions": [
-            {
-              "type": {
-                "value": "Create"
-              },
-              "parameters": [
-                "",
-                "CoinGold",
-                "Percy.X()",
-                "Percy.Y()",
-                ""
-              ]
-            },
             {
               "type": {
                 "value": "Delete"
               },
               "parameters": [
                 "Percy",
-                "Percy.X()",
-                "",
-                "",
                 ""
-              ]
-            },
-            {
-              "type": {
-                "value": "ScalableCapability::ScalableBehavior::SetValue"
-              },
-              "parameters": [
-                "CoinGold",
-                "Scale",
-                "=",
-                ".5"
-              ]
-            },
-            {
-              "type": {
-                "value": "Tween::TweenBehavior::AddObjectOpacityTween2"
-              },
-              "parameters": [
-                "CoinGold",
-                "Tween",
-                "\"rgrg\"",
-                "0",
-                "\"linear\"",
-                "1.5",
-                "yes"
-              ]
-            },
-            {
-              "type": {
-                "value": "PlayMusic"
-              },
-              "parameters": [
-                "",
-                "95fe7f6a064b3e17dce2774ad92cee83f877d2d6dda1cd16d79b876ca572911c_Death.aac",
-                "",
-                "100",
-                "1"
-              ]
-            },
-            {
-              "type": {
-                "value": "PlaySound"
-              },
-              "parameters": [
-                "",
-                "collectcoin-6075.mp3",
-                "",
-                "100",
-                "1"
-              ]
-            },
-            {
-              "type": {
-                "value": "ModVarGlobal"
-              },
-              "parameters": [
-                "Value",
-                "+",
-                "1"
-              ]
-            },
-            {
-              "type": {
-                "value": "TextContainerCapability::TextContainerBehavior::SetValue"
-              },
-              "parameters": [
-                "NewText2",
-                "Text",
-                "=",
-                "ToString(GlobalVariable(Value))"
               ]
             }
           ]

@@ -1996,6 +1996,126 @@
           "identifier": "https://asset-resources.gdevelop.io/public-resources/Breakable Physics/Coin/e87a4eedaa1fed05bc35fa8b48a3ca2abf6c98783ddc2c78d325461abb86cfc2_Coin Gold.png",
           "name": "Coin Gold.png"
         }
+      },
+      {
+        "file": "assets/MPLUS1p-ExtraBold.ttf",
+        "kind": "font",
+        "metadata": "",
+        "name": "9bf5e100819cd6d0fd92481cdb1282f88a48e49dfb3709df8015e0cd37de8fb4_MPLUS1p-ExtraBold.ttf",
+        "userAdded": true,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Google Fonts/Japanese/9bf5e100819cd6d0fd92481cdb1282f88a48e49dfb3709df8015e0cd37de8fb4_MPLUS1p-ExtraBold.ttf",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "file": "assets/OpenSans-Italic-VariableFont_wdth,wght.ttf",
+        "kind": "font",
+        "metadata": "",
+        "name": "8c4544654743d56682bd6d16e092a9a29da45d2a6b35e810d9d3b73217492df9_OpenSans-Italic-VariableFont_wdth,wght.ttf",
+        "userAdded": true,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Open Font License/8c4544654743d56682bd6d16e092a9a29da45d2a6b35e810d9d3b73217492df9_OpenSans-Italic-VariableFont_wdth,wght.ttf",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "file": "assets/NotoSansJP-Black.ttf",
+        "kind": "font",
+        "metadata": "",
+        "name": "b70695cce855d716caea8f3fe10fb37c0ffe43052dc8edb62b782c3176e28106_NotoSansJP-Black.ttf",
+        "userAdded": true,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Open Font License/Japanese/b70695cce855d716caea8f3fe10fb37c0ffe43052dc8edb62b782c3176e28106_NotoSansJP-Black.ttf",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Rock 1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Rock 1.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Foliage Pack (100 assets)/Rock/b314745b840a5c2a61fd9e5ad6140ab1fa693772b897a83ad91b460b828cb0c4_Rock 1.png",
+          "name": "Rock 1.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Door_Closed.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Door_Closed.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/16x16 Dungeon Tileset/Door/969a8bbc5ec12ee51b641e4a7ac318f0312abf39ef72121da06507cc17e3f5bc_Door_Closed.png",
+          "name": "Door_Closed.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Door_Open.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Door_Open.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/16x16 Dungeon Tileset/Door/133dcc03f2e4b0ed976c8d7263fc8750e64727003c09878a546d937252a2ac95_Door_Open.png",
+          "name": "Door_Open.png"
+        }
+      },
+      {
+        "file": "assets/Shenzhen Nightlife.aac",
+        "kind": "audio",
+        "metadata": "",
+        "name": "7d2a648b8798d36ac96e5a6d9297fa9d0bbd35553e216a5baaf8d944bdb867bc_Shenzhen Nightlife.aac",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": true,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Music/World/7d2a648b8798d36ac96e5a6d9297fa9d0bbd35553e216a5baaf8d944bdb867bc_Shenzhen Nightlife.aac",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "file": "assets/Death.aac",
+        "kind": "audio",
+        "metadata": "",
+        "name": "95fe7f6a064b3e17dce2774ad92cee83f877d2d6dda1cd16d79b876ca572911c_Death.aac",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": true,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Space Shooter by Pixel boy/Sound/95fe7f6a064b3e17dce2774ad92cee83f877d2d6dda1cd16d79b876ca572911c_Death.aac",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "file": "02. Kajra Mohabbat Wala.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "02. Kajra Mohabbat Wala.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": true
+      },
+      {
+        "file": "clean-fast-swooshaiff-14784.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "clean-fast-swooshaiff-14784.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": true
       }
     ],
     "resourceFolders": []
@@ -2034,7 +2154,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": true,
-        "zoomFactor": 0.7619362677197624,
+        "zoomFactor": 0.4617836677045003,
         "windowMask": false
       },
       "objectsGroups": [],
@@ -2044,13 +2164,13 @@
           "angle": 0,
           "customSize": true,
           "depth": 1,
-          "height": 33,
+          "height": 32,
           "layer": "",
           "name": "GreenGrass9patch",
           "persistentUuid": "becbd200-e3ee-4e35-8d85-872f9b2192fb",
-          "width": 2528,
-          "x": -384,
-          "y": 191,
+          "width": 1375,
+          "x": -383,
+          "y": 192,
           "zOrder": 2,
           "numberProperties": [],
           "stringProperties": [],
@@ -2111,7 +2231,7 @@
           "name": "TopArrowButton",
           "persistentUuid": "c3390fe3-21f3-4a04-be11-ce8d9aaa59a3",
           "width": 0,
-          "x": 240,
+          "x": 256,
           "y": 576,
           "zOrder": 9,
           "numberProperties": [],
@@ -2157,7 +2277,7 @@
           "name": "Percy",
           "persistentUuid": "2ea64e6c-61de-46f4-b30f-1620a62ae6b2",
           "width": 96,
-          "x": 384,
+          "x": 1952,
           "y": 96,
           "zOrder": 12,
           "numberProperties": [],
@@ -2166,15 +2286,48 @@
         },
         {
           "angle": 0,
-          "customSize": false,
-          "height": 0,
+          "customSize": true,
+          "depth": 2,
+          "height": 160,
           "layer": "",
-          "name": "GreenGrass9patch",
-          "persistentUuid": "6a48d6df-8f6f-43f3-b49e-a2f8ce732ab5",
-          "width": 0,
-          "x": 288,
+          "name": "GreenSmallTree3",
+          "persistentUuid": "b0b7b6d8-3985-4ba5-a1b6-8a82c10a6c74",
+          "width": 98,
+          "x": -128,
           "y": 32,
-          "zOrder": 13,
+          "zOrder": 14,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 51,
+          "layer": "",
+          "name": "Rock1",
+          "persistentUuid": "72771696-1c69-4b23-a13b-8c7cae65c8b2",
+          "width": 64,
+          "x": 416,
+          "y": 141,
+          "zOrder": 16,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 4,
+          "height": 128,
+          "layer": "",
+          "name": "Door",
+          "persistentUuid": "78749923-3f60-43a1-87b8-6e3cc3c60fd1",
+          "width": 128,
+          "x": 3936,
+          "y": 64,
+          "zOrder": 20,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -2183,13 +2336,234 @@
           "angle": 0,
           "customSize": false,
           "height": 0,
-          "layer": "",
-          "name": "GreenSmallTree3",
-          "persistentUuid": "b0b7b6d8-3985-4ba5-a1b6-8a82c10a6c74",
+          "layer": "UI Layer",
+          "name": "Tutorial_text",
+          "persistentUuid": "ca5d8bf5-60e8-4642-ad40-1d207d809589",
           "width": 0,
-          "x": -128,
-          "y": 94,
-          "zOrder": 14,
+          "x": 256,
+          "y": 544,
+          "zOrder": 21,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "UI Layer",
+          "name": "Tutorial_Text2",
+          "persistentUuid": "da7cef29-180a-4b9b-98dd-dc931e1ac27d",
+          "width": 0,
+          "x": 79,
+          "y": 544,
+          "zOrder": 22,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 32,
+          "layer": "",
+          "name": "CoinGold",
+          "persistentUuid": "6962b0c2-d043-4b62-b57a-8d76afb1c0e6",
+          "width": 32,
+          "x": 2464,
+          "y": 96,
+          "zOrder": 23,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 32,
+          "layer": "",
+          "name": "CoinGold",
+          "persistentUuid": "cf759fe4-53c8-4183-897a-ef920b0ce59a",
+          "width": 32,
+          "x": 2624,
+          "y": 96,
+          "zOrder": 23,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "UI Layer",
+          "name": "Tutorial_Text3",
+          "persistentUuid": "9936cd08-6ff2-4835-a561-8e0d9a52002a",
+          "width": 0,
+          "x": 907,
+          "y": 544,
+          "zOrder": 24,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "UI Layer",
+          "name": "Tutorial_Text4",
+          "persistentUuid": "c4ef2d3e-db7b-479c-bc45-77817491ae05",
+          "width": 0,
+          "x": 1056,
+          "y": 544,
+          "zOrder": 25,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 32,
+          "layer": "",
+          "name": "CoinGold",
+          "persistentUuid": "fe73e24d-0e6a-4244-94ae-4dafe511336a",
+          "width": 32,
+          "x": 2304,
+          "y": 96,
+          "zOrder": 23,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 51,
+          "layer": "",
+          "name": "Rock1",
+          "persistentUuid": "91d97695-4ad3-472a-b4b5-8817f544ce6a",
+          "width": 64,
+          "x": 800,
+          "y": 141,
+          "zOrder": 16,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 32,
+          "layer": "",
+          "name": "GreenGrass9patch",
+          "persistentUuid": "87887f7a-71bb-4c63-b9b8-4969d936ece6",
+          "width": 1600,
+          "x": 1152,
+          "y": 192,
+          "zOrder": 26,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 3,
+          "height": 96,
+          "layer": "",
+          "name": "Percy",
+          "persistentUuid": "b70dd157-afd8-40cc-97f7-528e1ecce960",
+          "width": 96,
+          "x": 1632,
+          "y": 96,
+          "zOrder": 12,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 32,
+          "layer": "",
+          "name": "GreenGrass9patch",
+          "persistentUuid": "15ba0cd4-84cb-41be-9c74-7792952211b5",
+          "width": 1824,
+          "x": 2912,
+          "y": 192,
+          "zOrder": 27,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 32,
+          "layer": "",
+          "name": "GreenGrass9patch",
+          "persistentUuid": "cd4eaca4-4b59-4478-9c8d-948790fedd8d",
+          "width": 352,
+          "x": 3168,
+          "y": 64,
+          "zOrder": 28,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 32,
+          "layer": "",
+          "name": "CoinGold",
+          "persistentUuid": "e867ed99-9a60-4bdd-9036-9569608bedec",
+          "width": 32,
+          "x": 3232,
+          "y": -64,
+          "zOrder": 23,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 32,
+          "layer": "",
+          "name": "CoinGold",
+          "persistentUuid": "685223a0-ccd2-43d1-a97c-4c7f14edd1f8",
+          "width": 32,
+          "x": 3328,
+          "y": -64,
+          "zOrder": 23,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 32,
+          "layer": "",
+          "name": "CoinGold",
+          "persistentUuid": "8b6f4600-db7c-4330-add8-b992ddd369c1",
+          "width": 32,
+          "x": 3424,
+          "y": -64,
+          "zOrder": 23,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -7912,6 +8286,346 @@
               ]
             }
           ]
+        },
+        {
+          "assetStoreId": "",
+          "bold": true,
+          "italic": false,
+          "name": "Tutorial_text",
+          "smoothed": true,
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "string": "Jump!      \n\n",
+          "font": "b70695cce855d716caea8f3fe10fb37c0ffe43052dc8edb62b782c3176e28106_NotoSansJP-Black.ttf",
+          "textAlignment": "left",
+          "characterSize": 25,
+          "color": {
+            "b": 0,
+            "g": 0,
+            "r": 0
+          },
+          "content": {
+            "bold": true,
+            "isOutlineEnabled": false,
+            "isShadowEnabled": false,
+            "italic": false,
+            "outlineColor": "255;255;255",
+            "outlineThickness": 5,
+            "shadowAngle": 90,
+            "shadowBlurRadius": 2,
+            "shadowColor": "0;0;0",
+            "shadowDistance": 4,
+            "shadowOpacity": 127,
+            "smoothed": true,
+            "underlined": false,
+            "text": "Jump!      \n\n",
+            "font": "b70695cce855d716caea8f3fe10fb37c0ffe43052dc8edb62b782c3176e28106_NotoSansJP-Black.ttf",
+            "textAlignment": "left",
+            "characterSize": 25,
+            "color": "0;0;0"
+          }
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "211a1957f66fe7003545f2f79a35e20673ea3708c9297e263c8ae388f28961f3",
+          "name": "Rock1",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [
+            {
+              "canBeGrabbed": true,
+              "name": "Platform",
+              "platformType": "NormalPlatform",
+              "type": "PlatformBehavior::PlatformBehavior",
+              "yGrabOffset": 0
+            }
+          ],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": true,
+                  "timeBetweenFrames": 0.025,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Rock 1.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 135,
+                            "y": 0
+                          },
+                          {
+                            "x": 135,
+                            "y": 108
+                          },
+                          {
+                            "x": 0,
+                            "y": 108
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "assetStoreId": "",
+          "bold": true,
+          "italic": false,
+          "name": "Tutorial_Text2",
+          "smoothed": true,
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "string": "Attack!",
+          "font": "b70695cce855d716caea8f3fe10fb37c0ffe43052dc8edb62b782c3176e28106_NotoSansJP-Black.ttf",
+          "textAlignment": "left",
+          "characterSize": 25,
+          "color": {
+            "b": 0,
+            "g": 0,
+            "r": 0
+          },
+          "content": {
+            "bold": true,
+            "isOutlineEnabled": false,
+            "isShadowEnabled": false,
+            "italic": false,
+            "outlineColor": "255;255;255",
+            "outlineThickness": 5,
+            "shadowAngle": 90,
+            "shadowBlurRadius": 2,
+            "shadowColor": "0;0;0",
+            "shadowDistance": 4,
+            "shadowOpacity": 127,
+            "smoothed": true,
+            "underlined": false,
+            "text": "Attack!",
+            "font": "b70695cce855d716caea8f3fe10fb37c0ffe43052dc8edb62b782c3176e28106_NotoSansJP-Black.ttf",
+            "textAlignment": "left",
+            "characterSize": 25,
+            "color": "0;0;0"
+          }
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "3e629abc8f260fb286a0ba8211d6b67d4e8c446ccd6bf1ac044b622b2757022b",
+          "name": "Door",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "Open",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": true,
+                  "timeBetweenFrames": 0.025,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Door_Open.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 32,
+                            "y": 0
+                          },
+                          {
+                            "x": 32,
+                            "y": 32
+                          },
+                          {
+                            "x": 0,
+                            "y": 32
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Closed",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": true,
+                  "timeBetweenFrames": 0.025,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Door_Closed.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 32,
+                            "y": 0
+                          },
+                          {
+                            "x": 32,
+                            "y": 32
+                          },
+                          {
+                            "x": 0,
+                            "y": 32
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "assetStoreId": "",
+          "bold": true,
+          "italic": false,
+          "name": "Tutorial_Text3",
+          "smoothed": true,
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "string": "Left!",
+          "font": "b70695cce855d716caea8f3fe10fb37c0ffe43052dc8edb62b782c3176e28106_NotoSansJP-Black.ttf",
+          "textAlignment": "left",
+          "characterSize": 25,
+          "color": {
+            "b": 0,
+            "g": 0,
+            "r": 0
+          },
+          "content": {
+            "bold": true,
+            "isOutlineEnabled": false,
+            "isShadowEnabled": false,
+            "italic": false,
+            "outlineColor": "255;255;255",
+            "outlineThickness": 2,
+            "shadowAngle": 90,
+            "shadowBlurRadius": 2,
+            "shadowColor": "0;0;0",
+            "shadowDistance": 4,
+            "shadowOpacity": 127,
+            "smoothed": true,
+            "underlined": false,
+            "text": "Left!",
+            "font": "b70695cce855d716caea8f3fe10fb37c0ffe43052dc8edb62b782c3176e28106_NotoSansJP-Black.ttf",
+            "textAlignment": "left",
+            "characterSize": 25,
+            "color": "0;0;0"
+          }
+        },
+        {
+          "assetStoreId": "",
+          "bold": true,
+          "italic": false,
+          "name": "Tutorial_Text4",
+          "smoothed": true,
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "string": "Right!",
+          "font": "b70695cce855d716caea8f3fe10fb37c0ffe43052dc8edb62b782c3176e28106_NotoSansJP-Black.ttf",
+          "textAlignment": "left",
+          "characterSize": 25,
+          "color": {
+            "b": 0,
+            "g": 0,
+            "r": 0
+          },
+          "content": {
+            "bold": true,
+            "isOutlineEnabled": false,
+            "isShadowEnabled": false,
+            "italic": false,
+            "outlineColor": "255;255;255",
+            "outlineThickness": 2,
+            "shadowAngle": 90,
+            "shadowBlurRadius": 2,
+            "shadowColor": "0;0;0",
+            "shadowDistance": 4,
+            "shadowOpacity": 127,
+            "smoothed": true,
+            "underlined": false,
+            "text": "Right!",
+            "font": "b70695cce855d716caea8f3fe10fb37c0ffe43052dc8edb62b782c3176e28106_NotoSansJP-Black.ttf",
+            "textAlignment": "left",
+            "characterSize": 25,
+            "color": "0;0;0"
+          }
         }
       ],
       "objectsFolderStructure": {
@@ -7964,6 +8678,24 @@
           },
           {
             "objectName": "CoinGold"
+          },
+          {
+            "objectName": "Tutorial_text"
+          },
+          {
+            "objectName": "Tutorial_Text2"
+          },
+          {
+            "objectName": "Rock1"
+          },
+          {
+            "objectName": "Door"
+          },
+          {
+            "objectName": "Tutorial_Text3"
+          },
+          {
+            "objectName": "Tutorial_Text4"
           }
         ]
       },
@@ -8346,6 +9078,18 @@
           ]
         },
         {
+          "type": "BuiltinCommonInstructions::Comment",
+          "color": {
+            "b": 109,
+            "g": 230,
+            "r": 255,
+            "textB": 0,
+            "textG": 0,
+            "textR": 0
+          },
+          "comment": ""
+        },
+        {
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
             {
@@ -8370,6 +9114,18 @@
                 "Animation",
                 "=",
                 "\"Attack\""
+              ]
+            },
+            {
+              "type": {
+                "value": "PlayMusic"
+              },
+              "parameters": [
+                "",
+                "clean-fast-swooshaiff-14784.mp3",
+                "",
+                "",
+                ""
               ]
             }
           ]
@@ -8432,7 +9188,7 @@
                 "CoinGold",
                 "Scale",
                 "=",
-                ".3"
+                ".5"
               ]
             },
             {
@@ -8447,6 +9203,18 @@
                 "\"linear\"",
                 "1.5",
                 "yes"
+              ]
+            },
+            {
+              "type": {
+                "value": "PlayMusic"
+              },
+              "parameters": [
+                "",
+                "95fe7f6a064b3e17dce2774ad92cee83f877d2d6dda1cd16d79b876ca572911c_Death.aac",
+                "",
+                "100",
+                "1"
               ]
             }
           ]
@@ -8597,9 +9365,127 @@
           ]
         },
         {
+          "type": "BuiltinCommonInstructions::Comment",
+          "color": {
+            "b": 109,
+            "g": 230,
+            "r": 255,
+            "textB": 0,
+            "textG": 0,
+            "textR": 0
+          },
+          "comment": "Door mechanics"
+        },
+        {
           "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [],
-          "actions": []
+          "conditions": [
+            {
+              "type": {
+                "value": "DepartScene"
+              },
+              "parameters": [
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "AnimatableCapability::AnimatableBehavior::SetName"
+              },
+              "parameters": [
+                "Door",
+                "Animation",
+                "=",
+                "\"Closed\""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "Door",
+                "NinjaBoy",
+                "",
+                "",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "AnimatableCapability::AnimatableBehavior::SetName"
+              },
+              "parameters": [
+                "Door",
+                "Animation",
+                "=",
+                "\"Open\""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "CoinGold",
+                "NinjaBoy",
+                "",
+                "",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Delete"
+              },
+              "parameters": [
+                "CoinGold",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "DepartScene"
+              },
+              "parameters": [
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "PlayMusic"
+              },
+              "parameters": [
+                "",
+                "7d2a648b8798d36ac96e5a6d9297fa9d0bbd35553e216a5baaf8d944bdb867bc_Shenzhen Nightlife.aac",
+                "",
+                "35",
+                "1"
+              ]
+            }
+          ]
         }
       ],
       "layers": [
@@ -8740,6 +9626,10 @@
           "type": "ScalableCapability::ScalableBehavior"
         },
         {
+          "name": "Text",
+          "type": "TextContainerCapability::TextContainerBehavior"
+        },
+        {
           "name": "Tween",
           "type": "Tween::TweenBehavior"
         }
@@ -8755,7 +9645,19 @@
       "stopSoundsOnStartup": true,
       "title": "",
       "v": 209,
-      "uiSettings": {},
+      "uiSettings": {
+        "grid": false,
+        "gridType": "rectangular",
+        "gridWidth": 32,
+        "gridHeight": 32,
+        "gridOffsetX": 0,
+        "gridOffsetY": 0,
+        "gridColor": 10401023,
+        "gridAlpha": 0.8,
+        "snap": false,
+        "zoomFactor": 0.546875,
+        "windowMask": false
+      },
       "objectsGroups": [],
       "variables": [],
       "instances": [],

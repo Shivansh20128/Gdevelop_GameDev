@@ -2116,6 +2116,36 @@
         "preloadAsSound": false,
         "preloadInCache": false,
         "userAdded": true
+      },
+      {
+        "file": "aggressive-metal-trailer-dragon-heart-132732.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "aggressive-metal-trailer-dragon-heart-132732.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": true
+      },
+      {
+        "file": "collectcoin-6075.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "collectcoin-6075.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": true
+      },
+      {
+        "file": "male_hurt7-48124.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "male_hurt7-48124.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": true
       }
     ],
     "resourceFolders": []
@@ -2128,9 +2158,9 @@
   "variables": [
     {
       "folded": true,
-      "name": "Death_Timer",
+      "name": "Value",
       "type": "number",
-      "value": 1
+      "value": 0
     }
   ],
   "layouts": [
@@ -2496,7 +2526,7 @@
           "layer": "",
           "name": "GreenGrass9patch",
           "persistentUuid": "15ba0cd4-84cb-41be-9c74-7792952211b5",
-          "width": 1824,
+          "width": 1888,
           "x": 2912,
           "y": 192,
           "zOrder": 27,
@@ -2564,6 +2594,37 @@
           "x": 3424,
           "y": -64,
           "zOrder": 23,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "UI Layer",
+          "name": "NewText",
+          "persistentUuid": "e0608ffc-beab-409f-9021-de03d2c58c47",
+          "width": 0,
+          "x": 1024,
+          "y": 0,
+          "zOrder": 29,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 55,
+          "layer": "UI Layer",
+          "name": "NewText2",
+          "persistentUuid": "e4a7fafe-a1b2-41b9-8d13-b808e53b60bb",
+          "width": 64,
+          "x": 1184,
+          "y": 0,
+          "zOrder": 30,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -8626,6 +8687,88 @@
             "characterSize": 25,
             "color": "0;0;0"
           }
+        },
+        {
+          "assetStoreId": "",
+          "bold": false,
+          "italic": false,
+          "name": "NewText",
+          "smoothed": true,
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "string": "Coins",
+          "font": "",
+          "textAlignment": "left",
+          "characterSize": 50,
+          "color": {
+            "b": 0,
+            "g": 0,
+            "r": 0
+          },
+          "content": {
+            "bold": false,
+            "isOutlineEnabled": false,
+            "isShadowEnabled": false,
+            "italic": false,
+            "outlineColor": "255;255;255",
+            "outlineThickness": 2,
+            "shadowAngle": 90,
+            "shadowBlurRadius": 2,
+            "shadowColor": "0;0;0",
+            "shadowDistance": 4,
+            "shadowOpacity": 127,
+            "smoothed": true,
+            "underlined": false,
+            "text": "Coins",
+            "font": "",
+            "textAlignment": "left",
+            "characterSize": 50,
+            "color": "0;0;0"
+          }
+        },
+        {
+          "assetStoreId": "",
+          "bold": false,
+          "italic": false,
+          "name": "NewText2",
+          "smoothed": true,
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "string": "0",
+          "font": "",
+          "textAlignment": "left",
+          "characterSize": 50,
+          "color": {
+            "b": 0,
+            "g": 0,
+            "r": 0
+          },
+          "content": {
+            "bold": false,
+            "isOutlineEnabled": false,
+            "isShadowEnabled": false,
+            "italic": false,
+            "outlineColor": "255;255;255",
+            "outlineThickness": 2,
+            "shadowAngle": 90,
+            "shadowBlurRadius": 2,
+            "shadowColor": "0;0;0",
+            "shadowDistance": 4,
+            "shadowOpacity": 127,
+            "smoothed": true,
+            "underlined": false,
+            "text": "0",
+            "font": "",
+            "textAlignment": "left",
+            "characterSize": 50,
+            "color": "0;0;0"
+          }
         }
       ],
       "objectsFolderStructure": {
@@ -8639,6 +8782,9 @@
           },
           {
             "objectName": "BackgroundColoredGrass"
+          },
+          {
+            "objectName": "NewText2"
           },
           {
             "objectName": "GreenGrass9patch"
@@ -8696,6 +8842,9 @@
           },
           {
             "objectName": "Tutorial_Text4"
+          },
+          {
+            "objectName": "NewText"
           }
         ]
       },
@@ -8818,7 +8967,7 @@
               "parameters": [
                 "NinjaBoy",
                 ">=",
-                "200"
+                "500"
               ]
             }
           ],
@@ -8833,6 +8982,18 @@
                 "128",
                 "=",
                 "128"
+              ]
+            },
+            {
+              "type": {
+                "value": "PlaySound"
+              },
+              "parameters": [
+                "",
+                "male_hurt7-48124.mp3",
+                "",
+                "",
+                ""
               ]
             }
           ]
@@ -9102,6 +9263,12 @@
                 "",
                 ""
               ]
+            },
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": []
             }
           ],
           "actions": [
@@ -9124,7 +9291,7 @@
                 "",
                 "clean-fast-swooshaiff-14784.mp3",
                 "",
-                "",
+                "100",
                 ""
               ]
             }
@@ -9215,6 +9382,39 @@
                 "",
                 "100",
                 "1"
+              ]
+            },
+            {
+              "type": {
+                "value": "PlaySound"
+              },
+              "parameters": [
+                "",
+                "collectcoin-6075.mp3",
+                "",
+                "100",
+                "1"
+              ]
+            },
+            {
+              "type": {
+                "value": "ModVarGlobal"
+              },
+              "parameters": [
+                "Value",
+                "+",
+                "1"
+              ]
+            },
+            {
+              "type": {
+                "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+              },
+              "parameters": [
+                "NewText2",
+                "Text",
+                "=",
+                "ToString(GlobalVariable(Value))"
               ]
             }
           ]
@@ -9330,6 +9530,39 @@
                 "Percy",
                 ""
               ]
+            },
+            {
+              "type": {
+                "value": "PlaySound"
+              },
+              "parameters": [
+                "",
+                "collectcoin-6075.mp3",
+                "",
+                "100",
+                "1"
+              ]
+            },
+            {
+              "type": {
+                "value": "ModVarGlobal"
+              },
+              "parameters": [
+                "Value",
+                "+",
+                "1"
+              ]
+            },
+            {
+              "type": {
+                "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+              },
+              "parameters": [
+                "NewText2",
+                "Text",
+                "=",
+                "ToString(GlobalVariable(Value))"
+              ]
             }
           ]
         },
@@ -9360,6 +9593,18 @@
                 "128",
                 "=",
                 "128"
+              ]
+            },
+            {
+              "type": {
+                "value": "PlaySound"
+              },
+              "parameters": [
+                "",
+                "male_hurt7-48124.mp3",
+                "",
+                "",
+                ""
               ]
             }
           ]
@@ -9457,6 +9702,39 @@
                 "CoinGold",
                 ""
               ]
+            },
+            {
+              "type": {
+                "value": "PlaySound"
+              },
+              "parameters": [
+                "",
+                "collectcoin-6075.mp3",
+                "",
+                "100",
+                "1"
+              ]
+            },
+            {
+              "type": {
+                "value": "ModVarGlobal"
+              },
+              "parameters": [
+                "Value",
+                "+",
+                "1"
+              ]
+            },
+            {
+              "type": {
+                "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+              },
+              "parameters": [
+                "NewText2",
+                "Text",
+                "=",
+                "ToString(GlobalVariable(Value))"
+              ]
             }
           ]
         },
@@ -9479,9 +9757,9 @@
               },
               "parameters": [
                 "",
-                "7d2a648b8798d36ac96e5a6d9297fa9d0bbd35553e216a5baaf8d944bdb867bc_Shenzhen Nightlife.aac",
+                "aggressive-metal-trailer-dragon-heart-132732.mp3",
                 "",
-                "35",
+                "10",
                 "1"
               ]
             }
